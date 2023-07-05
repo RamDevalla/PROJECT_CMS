@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    margin: 5px;
+}
+
+.icon{
+    font-size: xx-large;
+}

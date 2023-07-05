@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_games",
+  "info": {
+    "singularName": "video-game",
+    "pluralName": "video-games",
+    "displayName": "Video Game",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pricing": {
+      "type": "integer"
+    }
+  }
+}
